@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/e-plantShopping/', // Base path for GitHub Pages
+  base: '/', // 👈 Change this to `/` for correct asset loading
 });
